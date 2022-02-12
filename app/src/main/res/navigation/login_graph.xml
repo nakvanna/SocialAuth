@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/login_graph"
+    app:startDestination="@id/loginFormFragment">
+
+    <fragment
+        android:id="@+id/loginFormFragment"
+        android:name="com.example.socialauth.screen.form_and_google_sign_in.SignInFormFragment"
+        android:label="LoginFormFragment">
+        <action
+            android:id="@+id/action_loginFormFragment_to_phoneLoginFragment"
+            app:destination="@id/phoneLoginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/phoneLoginFragment"
+        android:name="com.example.socialauth.screen.phone_sign_in.PhoneSignInFragment"
+        android:label="fragment_phone_login"
+        tools:layout="@layout/fragment_phone_sign_in" />
+</navigation>

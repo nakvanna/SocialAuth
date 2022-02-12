@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/gradient_background"
+        android:background="@drawable/bg_login"
+        android:textAlignment="center"
+        tools:context=".LoginActivity">
+
+        <ImageView
+            android:id="@+id/cloudWareLogoImage"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="16dp"
+            android:contentDescription="@string/cloudware_logo"
+            android:src="@mipmap/ic_cloudware_round"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:src="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/salaByText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/moul_regular"
+            android:text="@string/sala_by_cloudware"
+            android:textSize="25sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cloudWareLogoImage" />
+
+        <TextView
+            android:id="@+id/captionText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/freehand_regular"
+            android:text="@string/login_with_any_account_below"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/salaByText" />
+
+        <Button
+            android:id="@+id/phoneLoginBtn"
+            style="?android:textAppearanceSmall"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:text="@string/sign_in_with_phone"
+            android:fontFamily="@font/bayon_regular"
+            android:textStyle="bold"
+            app:backgroundTint="@color/teal_700"
+            app:icon="@drawable/phone_call"
+            app:iconTint="@null"
+            app:layout_constraintBottom_toTopOf="@+id/googleLoginBtn"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/googleLoginBtn"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="90dp"
+            android:text="@string/sign_in_with_google"
+            android:fontFamily="@font/bayon_regular"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:backgroundTint="@color/white"
+            app:icon="@drawable/search"
+            app:iconTint="@null"
+            app:layout_constraintBottom_toTopOf="@+id/appleLoginBtn"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/appleLoginBtn"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="100dp"
+            android:text="@string/sign_in_with_apple"
+            android:textStyle="bold"
+            android:visibility="gone"
+            app:backgroundTint="@color/black"
+            app:icon="@drawable/apple"
+            app:layout_constraintBottom_toTopOf="@+id/textView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="@string/power_by_cloudware"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

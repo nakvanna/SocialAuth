@@ -1,0 +1,194 @@
+{
+  "project_info": {
+    "project_number": "1088650776813",
+    "project_id": "social-login-8b8bc",
+    "storage_bucket": "social-login-8b8bc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1088650776813:android:9c0c82fb4748fc04353ce4",
+        "android_client_info": {
+          "package_name": "com.cloudware.google_signin_package"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1088650776813-kdjmvqrjt3gnacvagspcfd9vebkkkc75.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cloudware.google_signin_package",
+            "certificate_hash": "ec05303d5222d1499ed546b3f05ecc469b837650"
+          }
+        },
+        {
+          "client_id": "1088650776813-65nd4jf15utdonf337oaplohtli03mbq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAl51MysD3aAeAi_G9mnqJi256KIYYbRDc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1088650776813-65nd4jf15utdonf337oaplohtli03mbq.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1088650776813-0dn7m10j6n6k1je7g0ngon59dvjg01iu.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.cloudware.googleSigninPackage"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1088650776813:android:7b6c8623084ee876353ce4",
+        "android_client_info": {
+          "package_name": "com.cloudware.sign_in_with_phone_number"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1088650776813-71srp83mp5pqgpr74kpabih26t8kv9c4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cloudware.sign_in_with_phone_number",
+            "certificate_hash": "2c03e2064f5f9840f4811073978915728ce5dbac"
+          }
+        },
+        {
+          "client_id": "1088650776813-go3mui8os8dt02ph1gedtic31f6nuesg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cloudware.sign_in_with_phone_number",
+            "certificate_hash": "ec05303d5222d1499ed546b3f05ecc469b837650"
+          }
+        },
+        {
+          "client_id": "1088650776813-65nd4jf15utdonf337oaplohtli03mbq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAl51MysD3aAeAi_G9mnqJi256KIYYbRDc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1088650776813-65nd4jf15utdonf337oaplohtli03mbq.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1088650776813-0dn7m10j6n6k1je7g0ngon59dvjg01iu.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.cloudware.googleSigninPackage"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1088650776813:android:5881426773377510353ce4",
+        "android_client_info": {
+          "package_name": "com.example.example"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1088650776813-6mgm3nl32c6mo0c6efcvc1bh5rc5qemn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.example",
+            "certificate_hash": "ec05303d5222d1499ed546b3f05ecc469b837650"
+          }
+        },
+        {
+          "client_id": "1088650776813-65nd4jf15utdonf337oaplohtli03mbq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAl51MysD3aAeAi_G9mnqJi256KIYYbRDc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1088650776813-65nd4jf15utdonf337oaplohtli03mbq.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1088650776813-0dn7m10j6n6k1je7g0ngon59dvjg01iu.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.cloudware.googleSigninPackage"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1088650776813:android:8e4bd5515548a84d353ce4",
+        "android_client_info": {
+          "package_name": "com.example.socialauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1088650776813-a4g06jns9hfncmasin1o01vdlfskku8e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.socialauth",
+            "certificate_hash": "ec05303d5222d1499ed546b3f05ecc469b837650"
+          }
+        },
+        {
+          "client_id": "1088650776813-65nd4jf15utdonf337oaplohtli03mbq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAl51MysD3aAeAi_G9mnqJi256KIYYbRDc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1088650776813-65nd4jf15utdonf337oaplohtli03mbq.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1088650776813-0dn7m10j6n6k1je7g0ngon59dvjg01iu.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.cloudware.googleSigninPackage"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

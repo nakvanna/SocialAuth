@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Social Auth</string>
+    <string name="sign_in">Sign In</string>
+    <string name="cloudware_logo">CloudWare Logo</string>
+    <string name="sign_in_with_phone">Sign In with Phone</string>
+    <string name="sign_in_with_google">Sign In with Google</string>
+    <string name="sign_in_with_apple">Sign In with Apple</string>
+    <string name="login_with_any_account_below">Login with any account below</string>
+    <string name="sala_by_cloudware">Sala by CloudWare</string>
+    <string name="power_by_cloudware">Power by CloudWare</string>
+    <string name="welcome_to_homepage">Welcome to HomePage</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome_screen">Welcome Screen</string>
+    <string name="welcome">Welcome</string>
+    <string name="phone_number">Phone number</string>
+    <string name="enter_your_otp">Enter your OTP</string>
+    <string name="_continue">Continue</string>
+    <string name="logout">Logout</string>
+    <string name="help">Help</string>
+    <string name="require">Require</string>
+    <string name="phone_submit_dialog">Country code: %1$s \nPhone number: %2$s</string>
+    <string name="invalid_form">Invalid Form</string>
+    <string name="submit_form">Submit Form</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="must_be_all_digits">Must be all Digits</string>
+    <string name="must_be_9_or_10_digits">Must be 9 or 10 Digits</string>
+    <string name="about">About</string>
+    <string name="settings">Settings</string>
+    <string name="profile_image">Profile Image</string>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Social Auth</string>
+    <string name="sign_in">ចូល</string>
+    <string name="cloudware_logo">និមិត្តសញ្ញា ខ្លោដវែរ</string>
+    <string name="sign_in_with_phone">ចូលជាមួយលេខទូរសព្ទ</string>
+    <string name="sign_in_with_google">ចូលជាមួយ Google</string>
+    <string name="sign_in_with_apple">ចូលជាមួយ Apple</string>
+    <string name="login_with_any_account_below">ចូលជាមួយគណនីណាមួយខាងក្រោម</string>
+    <string name="sala_by_cloudware">សាលារៀនជំនាន់ថ្មី</string>
+    <string name="power_by_cloudware">ដំណើរការដោយ ខ្លោដវែរ</string>
+    <string name="welcome_to_homepage">ស្វាគមន៍មកកាន់ទំព័រដើម</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome_screen">សូមស្វាគមន៍</string>
+    <string name="welcome">សូមស្វាគមន៍</string>
+    <string name="phone_number">លេខទូរសព្ទរបស់អ្នក</string>
+    <string name="enter_your_otp">បញ្ចូលលេខកូដ OTP</string>
+    <string name="_continue">បន្ដ</string>
+    <string name="logout">ចាកចេញ</string>
+    <string name="help">ជំនួយ</string>
+    <string name="require">តម្រូវការ</string>
+    <string name="phone_submit_dialog">លេខកូដ: %1$s \nលេខទូរសព្ទ: %2$s</string>
+    <string name="invalid_form">ទម្រង់មិនត្រឹមត្រូវ</string>
+    <string name="submit_form">ទម្រង់ត្រឹមត្រូវ</string>
+    <string name="ok">យល់ព្រម</string>
+    <string name="cancel">បោះបង់</string>
+    <string name="must_be_all_digits">ត្រូវតែជាលេខទាំងអស់</string>
+    <string name="must_be_9_or_10_digits">យ៉ាងតិច ៩ ទៅ ១០ ខ្ទង់</string>
+    <string name="about">អំពី</string>
+    <string name="settings">ការកំណត់</string>
+    <string name="profile_image">Profile Image</string>
+</resources>

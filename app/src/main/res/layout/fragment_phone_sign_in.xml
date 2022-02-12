@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".screen.phone_sign_in.PhoneSignInFragment">
+
+        <TextView
+            android:id="@+id/phoneSignInText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/sign_in_with_phone"
+            android:textSize="22sp"
+            android:fontFamily="@font/moul_regular"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.hbb20.CountryCodePicker
+            android:id="@+id/ccp"
+            app:ccpDialog_showCloseIcon="true"
+            app:ccpDialog_backgroundColor="@color/background_light"
+            app:ccpDialog_textColor="@color/foreground_light"
+            app:ccp_contentColor="@color/foreground_light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:visibility="visible"
+            app:ccp_areaCodeDetectedCountry="true"
+            app:ccp_autoDetectCountry="true"
+            app:ccp_countryAutoDetectionPref="LOCALE_NETWORK"
+            app:ccp_countryPreference="kh"
+            app:ccp_customMasterCountries="KH,TH,CN,MM,VN"
+            app:ccp_rememberLastSelection="true"
+            app:layout_constraintEnd_toStartOf="@+id/phoneNumberLayout"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/phoneNumberLayout" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/phoneNumberLayout"
+            android:visibility="visible"
+            android:layout_width="0dp"
+            app:helperText="@string/require"
+            app:helperTextTextColor="@color/red"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="16dp"
+            android:hint="@string/phone_number"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/ccp"
+            app:layout_constraintTop_toBottomOf="@+id/phoneSignInText"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/phoneNumberEdit"
+                android:inputType="number"
+                android:lines="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <!--<EditText
+            android:id="@+id/phoneNumberEdit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="16dp"
+            android:autofillHints="phone"
+            android:ems="10"
+            android:hint="@string/phone_number"
+            android:inputType="phone"
+            android:minHeight="48dp"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/ccp"
+            app:layout_constraintTop_toBottomOf="@+id/phoneSignInText"
+            tools:ignore="TextContrastCheck" />-->
+
+        <Button
+            android:id="@+id/phoneSignInBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="120dp"
+            android:text="@string/sign_in"
+            android:fontFamily="@font/bayon_regular"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/phoneSignInText" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/outlinedTextField"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_marginTop="32dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:hint="@string/enter_your_otp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/phoneSignInText"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/otpEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLength="6" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

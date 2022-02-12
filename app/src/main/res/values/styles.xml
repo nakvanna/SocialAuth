@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MyOverflowMenuItems" parent="@android:style/TextAppearance.Widget.IconMenu.Item">
+        <item name="fontFamily">@font/freehand_regular</item>
+    </style>
+
+    <style name="MyDrawerMenuItems" parent="@android:style/TextAppearance.Widget.IconMenu.Item">
+        <item name="fontFamily">@font/angkor_regular</item>
+    </style>
+</resources>
